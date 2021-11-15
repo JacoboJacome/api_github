@@ -24,7 +24,7 @@ function App() {
       <statusUserProvider>
         <MainLayout>
         <Switch>
-            <Route path="/" exact>
+            <Route path="/api_github/" exact>
               <Home />
             </Route>
             <Route path="/:user/followers" exact>
