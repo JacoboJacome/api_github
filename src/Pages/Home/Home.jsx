@@ -26,7 +26,7 @@ const Home = () => {
     e.preventDefault();
     setUserInformation(null);
     setLoader(true);
-    const API = `https://api.github.com/users/${userName}`;
+    const API = await `https://api.github.com/users/${userName}`;
     const response = await fetch(API);
     const result = await response.json();
     setUserStatus(response.status)
@@ -51,7 +51,7 @@ const Home = () => {
             followers={userInformation?.followers}
             following={userInformation?.following}
           />
-        ) : userStatus === 404?  <Error status={userStatus} />: null }
+        ) : userStatus ?  <Error status={userStatus} />: null}
       </div>
 
       {loader && <Loader />}
