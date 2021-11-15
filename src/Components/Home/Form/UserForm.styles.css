@@ -1,0 +1,14 @@
+.search-input {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 10px 0 0 10px;
+}
+
+.search-input_button {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 0px 10px 10px 0px;
+  transition: all 0.3s ease;
+}
