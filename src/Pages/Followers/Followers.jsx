@@ -38,7 +38,7 @@ const Followers = () => {
             followers={user.followers}
           />
         ))
-      ) : (
+      ) : ( 
         <Loader />
       )}
     </div>

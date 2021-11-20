@@ -24,7 +24,7 @@ function App() {
       <statusUserProvider>
         <MainLayout>
         <Switch>
-            <Route path="/home" exact>
+            <Route path="/" exact>
               <Home />
             </Route>
             <Route path="/:user/followers" exact>
