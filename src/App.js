@@ -21,7 +21,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      <statusUserProvider>
         <MainLayout>
         <Switch>
             <Route path="/home" exact>
@@ -44,7 +43,6 @@ function App() {
             </Route>
           </Switch>
         </MainLayout>
-      </statusUserProvider>
     </BrowserRouter>
   );
 }

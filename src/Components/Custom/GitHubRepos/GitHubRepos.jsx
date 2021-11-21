@@ -23,7 +23,7 @@ const GitHubRepos = props => {
                  <span className="text-red-800 hover:bg-red-800 hover:text-white rounded-full p-1 text-xl font-bold"> Nombre: </span>{" "}
                   {public_repos}
             </p>
-            <a href={repo} rel="noopener" target="_blank"
+            <a href={repo} rel="noreferrer" target="_blank"
             className="text-red-800 hover:bg-red-800 hover:text-white rounded-full p-1 text-xl font-bold">
                 Link
             </a>
